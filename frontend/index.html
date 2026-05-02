@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10B981" />
+
+    <!-- SEO: Primary Meta Tags -->
+    <meta name="description" content="SafeBite — Discover and order food from safety-verified restaurants. Every kitchen is hygiene-rated so you can eat smart, eat safe, every time." />
+    <meta name="keywords" content="safe food delivery, hygiene rating, food safety, restaurant safety score, healthy food, SafeBite" />
+    <meta name="author" content="SafeBite" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- SEO: Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://safebite.app/" />
+    <meta property="og:title" content="SafeBite — Eat Smart. Eat Safe. Every Time." />
+    <meta property="og:description" content="Order food with confidence. SafeBite rates every kitchen on hygiene and safety so you always know what you're eating." />
+    <meta property="og:image" content="https://safebite.app/og-preview.png" />
+
+    <!-- SEO: Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://safebite.app/" />
+    <meta name="twitter:title" content="SafeBite — Eat Smart. Eat Safe. Every Time." />
+    <meta name="twitter:description" content="Order food with confidence. SafeBite rates every kitchen on hygiene and safety so you always know what you're eating." />
+    <meta name="twitter:image" content="https://safebite.app/og-preview.png" />
+    
+    <!-- Google Fonts: Inter and Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Mui Roboto (fallback / icons) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    
+    <!-- Google Analytics (stub) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXX');
+    </script>
+    
+    <!-- Structured Data: JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "SafeBite",
+        "url": "https://safebite.app/",
+        "description": "SafeBite helps you find and order from safety-verified restaurants. Every kitchen is hygiene-rated so you always know what you're eating.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://safebite.app/restaurants?search={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    
+    <title>SafeBite — Eat Smart. Eat Safe. Every Time.</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

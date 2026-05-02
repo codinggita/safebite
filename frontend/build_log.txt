@@ -1,0 +1,25 @@
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 969 modules transformed.
+[31mx[39m Build failed in 4.64s
+[31merror during build:
+[31msrc/hooks/useCart.js (7:2): "selectCartRestaurantId" is not exported by "src/features/cart/cartSelectors.js", imported by "src/hooks/useCart.js".[31m
+file: [36mC:/Users/Kshitij Pandey/OneDrive/Desktop/summer project/safebite/frontend/src/hooks/useCart.js:7:2[31m
+[33m
+5:   selectCartSubtotal,
+6:   selectCartItemCount,
+7:   selectCartRestaurantId,
+     ^
+8: } from '../features/cart/cartSelectors';
+9: import { addItem, removeItem, updateQuantity, clearCart } from '../features/cart/cartSlice';
+[31m
+    at getRollupError (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/parseAst.js:406:41)
+    at error (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/parseAst.js:402:42)
+    at Module.error (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/node-entry.js:17384:16)
+    at Module.traceVariable (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/node-entry.js:17817:29)
+    at ModuleScope.findVariable (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/node-entry.js:15407:39)
+    at ReturnValueScope.findVariable (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at FunctionBodyScope.findVariable (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at Identifier.bind (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/node-entry.js:5450:40)
+    at CallExpression.bind (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/node-entry.js:2828:28)
+    at CallExpression.bind (file:///C:/Users/Kshitij%20Pandey/OneDrive/Desktop/summer%20project/safebite/frontend/node_modules/rollup/dist/es/shared/node-entry.js:12516:15)[39m
